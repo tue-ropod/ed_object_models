@@ -96,30 +96,30 @@ composition:
 
     - type: "waypoint"
       id: "registration_table1"
-      pose: { x: 3.0, y: -4.0, z: 0, Z: 0.0 }
+      pose: { x: 4.16, y: -5.61, z: 0, Z: 3.1415 }
     - type: "waypoint"
       id: "registration_table2"
-      pose: { x: 3.0, y: -4.0, z: 0, Z: 0.0 }
+      pose: { x: 6.12, y: -5.79, z: 0, Z: 3.1415 }
     - type: "waypoint"
       id: "registration_table3"
-      pose: { x: 3.0, y: -4.0, z: 0, Z: 0.0 }
+      pose: { x: 2.55, y: -5.65, z: 0, Z: 3.1415 }
     - type: "waypoint"
       id: "exit_1_rips"
-      pose: { x: 9.5, y: -7.5, z: 0, Z: -0.78539816339 }
+      pose: { x: 0.0, y: 1.0, z: 0, Z: 1.5708 }
     - type: "waypoint"
       id: "exit_2_rips"
-      pose: { x: 9.5, y: -7.5, z: 0, Z: -0.78539816339 }
+      pose: { x: 0.0, y: 2.0, z: 0, Z: 1.5708 }
     - type: "waypoint"
       id: "exit_3_rips"
-      pose: { x: 9.5, y: -7.5, z: 0, Z: -0.78539816339 }
+      pose: { x: 0.0, y: -1.0, z: 0, Z: 1.5708 }
     - type: "waypoint"
       id: "exit_4_rips"
-      pose: { x: 9.5, y: -7.5, z: 0, Z: -0.78539816339 }
+      pose: { x: 0.0, y: -2.0, z: 0, Z: 1.5708 }
 
 # - - - - - - CHALLENGE GPSR - - - - - - - - - -
-    - type: "waypoint"
-      id: "gpsr_meeting_point"
-      pose: { x: 2.2, y: 1.5, z: 0, Z: 3.1415 }
+    # - type: "waypoint"
+    #   id: "gpsr_meeting_point"
+    #   pose: { x: 2.2, y: 1.5, z: 0, Z: 3.1415 }
 
 # - - - - - - ROOMS - - - - - - -
 
