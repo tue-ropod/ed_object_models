@@ -14,7 +14,10 @@ corridor; min1; 2,40; -6,35
 corridor; max1; 9,70; -5,00
 corridor; center; 5,00; -5,60
 
-corridor; min1; -2,40; -5,00
-corridor; max1; 1,80; -0,05
-corridor; center; 0,00; -2,60
+living_room; min1; -2,40; -5,00
+living_room; max1; 1,80; -0,05
+living_room; center; 0,00; -2,60
 
+balcony; min1; -2,40; -9,40
+balcony; max1; 2,20; -6,45
+balcony; center; -1,00; -7,20

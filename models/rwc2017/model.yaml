@@ -1,125 +1,123 @@
 composition:
-    - type: "rwc2017/walls"
-      id: "walls"
-      pose:
-          x: 0
-          y: 0
-          z: 0
-    - type: "floor"
-      id: "floor"
-      pose:
-          x: 0
-          y: 0
-          z: 0
-          
-    - type: "rwc2017/wall_270"
-      id: "wall_270"
-      pose:
-          x: 5.075
-          y: -4.93
-          z: 0.0
-          Z: 0.0
-
-    - type: "rwc2017/wall_240"
-      id: "wall_240"
-      pose:
-          x: 2.15
-          y: -3.8
-          z: 0.0
-          Z: 1.7
-
-    - type: "rwc2017/wall_180"
-      id: "wall_180"
-      pose:
-          x: 8.90
-          y: -4.93
-          z: 0.0
-          Z: 0.0
-          
-    - type: "rwc2017/bed"
-      id: "bed"
-      pose:
-          x: 9.26
-          y: -3.86
-          z: 0.0
-          Z: 3.14159265359
-    - type: "rwc2017/kitchencounter"
-      id: "kithcen_counter"
-      pose:
-          x: 6.10
-          y: -3.60
-          z: 0.0
-          Z: 3.14159265359
-    - type: "rwc2017/fridge"
-      id: "fridge"
-      pose:
-          x: 6.125
-          y: -2.175
-          z: 0.0
-          Z: 3.14159265359
-    - type: "rwc2017/cabinet_black"
-      id: "Entrance_shelf"
-      pose:
-          x: 6.655
-          y: -7.21
-          z: 0.0
-          Z: 0.0
-          
-    - type: "rwc2017/cabinet_showcase"
-      id: "bookcase"
-      pose:
-          x: 1.92
-          y: -4.10
-          z: 0.0
-          Z: 3.27079632679
-          
-    - type: "rwc2017/cabinet_wall"
-      id: "right rack"
-      pose:
-          x: -1.545
-          y: -0.18
-          z: 0.0
-          Z: -1.57079632679
+- type: "rwc2017/walls"
+  id: "walls"
+  pose:
+      x: 0
+      y: 0
+      z: 0
+- type: "floor"
+  id: "floor"
+  pose:
+      x: 0
+      y: 0
+      z: 0
       
+- type: "rwc2017/wall_270"
+  id: "wall_270"
+  pose:
+      x: 5.075
+      y: -4.93
+      z: 0.0
+      Z: 0.0
 
+- type: "rwc2017/wall_240"
+  id: "wall_240"
+  pose:
+      x: 2.15
+      y: -3.8
+      z: 0.0
+      Z: 1.7
+
+- type: "rwc2017/wall_180"
+  id: "wall_180"
+  pose:
+      x: 8.90
+      y: -4.93
+      z: 0.0
+      Z: 0.0
+      
+- type: "rwc2017/bed"
+  id: "bed"
+  pose:
+      x: 9.26
+      y: -3.86
+      z: 0.0
+      Z: 3.14159265359
+- type: "rwc2017/kitchencounter"
+  id: "kithcen_counter"
+  pose:
+      x: 6.10
+      y: -3.60
+      z: 0.0
+      Z: 3.14159265359
+- type: "rwc2017/fridge"
+  id: "fridge"
+  pose:
+      x: 6.125
+      y: -2.175
+      z: 0.0
+      Z: 3.14159265359
+- type: "rwc2017/cabinet_black"
+  id: "Entrance_shelf"
+  pose:
+      x: 6.655
+      y: -7.21
+      z: 0.0
+      Z: 0.0
+      
+- type: "rwc2017/cabinet_showcase"
+  id: "bookcase"
+  pose:
+      x: 1.92
+      y: -4.10
+      z: 0.0
+      Z: 3.27079632679
+      
+- type: "rwc2017/cabinet_wall"
+  id: "right rack"
+  pose:
+      x: -1.545
+      y: -0.18
+      z: 0.0
+      Z: -1.57079632679
 
 # - - - - - - - - - - - - - - - - - - - - - - - - -
 
-    - type: "waypoint"
-      id: "initial_pose"
-      pose: { x: 9.3, y: -7.3, z: 0, Z: 2.35619449019 }
-    - type: "waypoint"
-      id: "exit"
-      pose: { x: 0.0, y: 1.0, z: 0, Z: 1.57079632679 }
+- type: "waypoint"
+  id: "initial_pose"
+  pose: { x: 9.3, y: -7.3, z: 0, Z: 2.35619449019 }
+- type: "waypoint"
+  id: "exit"
+  pose: { x: 0.0, y: 1.0, z: 0, Z: 1.57079632679 }
 
 # - - - - - - CHALLENGE_RIPS WAYPOINTS - - - - - - -
 
-    - type: "waypoint"
-      id: "registration_table1"
-      pose: { x: 4.16, y: -5.61, z: 0, Z: 3.1415 }
-    - type: "waypoint"
-      id: "registration_table2"
-      pose: { x: 6.12, y: -5.79, z: 0, Z: 3.1415 }
-    - type: "waypoint"
-      id: "registration_table3"
-      pose: { x: 2.55, y: -5.65, z: 0, Z: 3.1415 }
-    - type: "waypoint"
-      id: "exit_1_rips"
-      pose: { x: 0.0, y: 1.0, z: 0, Z: 1.5708 }
-    - type: "waypoint"
-      id: "exit_2_rips"
-      pose: { x: 0.0, y: 2.0, z: 0, Z: 1.5708 }
-    - type: "waypoint"
-      id: "exit_3_rips"
-      pose: { x: 0.0, y: -1.0, z: 0, Z: 1.5708 }
-    - type: "waypoint"
-      id: "exit_4_rips"
-      pose: { x: 0.0, y: -2.0, z: 0, Z: 1.5708 }
+- type: "waypoint"
+  id: "registration_table1"
+  pose: { x: 4.16, y: -5.61, z: 0, Z: 3.1415 }
+- type: "waypoint"
+  id: "registration_table2"
+  pose: { x: 6.12, y: -5.79, z: 0, Z: 3.1415 }
+- type: "waypoint"
+  id: "registration_table3"
+  pose: { x: 2.55, y: -5.65, z: 0, Z: 3.1415 }
+- type: "waypoint"
+  id: "exit_1_rips"
+  pose: { x: 0.0, y: 1.0, z: 0, Z: 1.5708 }
+- type: "waypoint"
+  id: "exit_2_rips"
+  pose: { x: 0.0, y: 2.0, z: 0, Z: 1.5708 }
+- type: "waypoint"
+  id: "exit_3_rips"
+  pose: { x: 0.0, y: -1.0, z: 0, Z: 1.5708 }
+- type: "waypoint"
+  id: "exit_4_rips"
+  pose: { x: 0.0, y: -2.0, z: 0, Z: 1.5708 }
 
-# - - - - - - CHALLENGE GPSR - - - - - - - - - -
-    # - type: "waypoint"
-    #   id: "gpsr_meeting_point"
-    #   pose: { x: 2.2, y: 1.5, z: 0, Z: 3.1415 }
+## - - - - - - CHALLENGE GPSR - - - - - - - - - -
+ #- type: "waypoint"
+   #id: "gpsr_meeting_point"
+   #pose: { x: 2.2, y: 1.5, z: 0, Z: 3.1415 }
 
 # - - - - - - ROOMS - - - - - - -
 
@@ -133,6 +131,24 @@ composition:
         min: { x: -1.25, y: -0.80, z: 0 }
         max: { x: 1.55, y: 0.70, z: 0.01 }
 - type: "room"
+  id: "living_room"
+  pose: { x: 0.00, y: -2.60, z: 0 }
+  areas:
+  - name: in
+    shape:
+    - box:
+        min: { x: -2.40, y: -2.40, z: 0 }
+        max: { x: 1.80, y: 2.55, z: 0.01 }
+- type: "room"
+  id: "corridor"
+  pose: { x: 5.00, y: -5.60, z: 0 }
+  areas:
+  - name: in
+    shape:
+    - box:
+        min: { x: -2.60, y: -0.75, z: 0 }
+        max: { x: 4.70, y: 0.60, z: 0.01 }
+- type: "room"
   id: "bedroom"
   pose: { x: 7.50, y: -2.50, z: 0 }
   areas:
@@ -142,15 +158,6 @@ composition:
         min: { x: -0.95, y: -2.30, z: 0 }
         max: { x: 2.25, y: 2.45, z: 0.01 }
 - type: "room"
-  id: "corridor"
-  pose: { x: 0.00, y: -2.60, z: 0 }
-  areas:
-  - name: in
-    shape:
-    - box:
-        min: { x: -2.40, y: -2.40, z: 0 }
-        max: { x: 1.80, y: 2.55, z: 0.01 }
-- type: "room"
   id: "kitchen"
   pose: { x: 4.00, y: -2.00, z: 0 }
   areas:
@@ -159,3 +166,12 @@ composition:
     - box:
         min: { x: 2.35, y: -2.75, z: 0 }
         max: { x: -1.60, y: 1.95, z: 0.01 }
+- type: "room"
+  id: "balcony"
+  pose: { x: -1.00, y: -7.20, z: 0 }
+  areas:
+  - name: in
+    shape:
+    - box:
+        min: { x: -1.40, y: -2.20, z: 0 }
+        max: { x: 3.20, y: 0.75, z: 0.01 }
