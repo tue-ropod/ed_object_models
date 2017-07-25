@@ -1,16 +1,20 @@
-kitchen; min1; 3,70; 4,10
-kitchen; max1; 9,70; 7,40
-kitchen; center; 6,00; 6,00
+kitchen; min1; 6,35; -4,75
+kitchen; max1; 2,40; -0,05
+kitchen; center; 4,00; -2,00
 
-bedroom; min1; 5,20; -1,35
-bedroom; max1; 9,70; 3,30
-bedroom; center; 8,00; 0,00
+bedroom; min1; 6,55; -4,80
+bedroom; max1; 9,75; -0,05
+bedroom; center; 7,50; -2,50
 
-dining_room; min1; 0,14; -1,35
-dining_room; max1; 4,90; 3,44
-dining_room; center; 3,00; 0,00
+entrance; min1; 6,55; -8,00
+entrance; max1; 9,35; -6,5
+entrance; center; 7,8; -7,2
 
-living_room; min1; 0,14; 3,70
-living_room; max1; 4,09; 7,40
-living_room; center; 1,80; 5,25
+corridor; min1; 2,40; -6,35
+corridor; max1; 9,70; -5,00
+corridor; center; 5,00; -5,60
+
+corridor; min1; -2,40; -5,00
+corridor; max1; 1,80; -0,05
+corridor; center; 0,00; -2,60
 
