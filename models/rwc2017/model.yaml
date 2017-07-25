@@ -74,12 +74,20 @@ composition:
       Z: 3.27079632679
       
 - type: "rwc2017/cabinet_wall"
-  id: "right rack"
+  id: "right_rack"
   pose:
       x: -1.545
       y: -0.18
       z: 0.0
       Z: -1.57079632679
+      
+- type: "rwc2017/table_balcony"
+  id: "bistro_table"
+  pose:
+      x: 0.0
+      y: -7.7
+      z: 0.0
+      Z: 1.57079632679
 
 # - - - - - - - - - - - - - - - - - - - - - - - - -
 
