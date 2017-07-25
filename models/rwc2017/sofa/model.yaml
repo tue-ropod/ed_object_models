@@ -10,15 +10,15 @@ shape:
             size: {x: 0.39, y: 1.05,  z: 0.15}
 
 areas:
-  - name: on_top_of
-    shape:
-      - box:
-            min: { x: -0.18, y: -0.95, z: 0.475 }
-            max: { x: 0.18, y:  0.05, z: 0.9 }
-  #- name: in_front_of
+  #- name: on_top_of
     #shape:
       #- box:
-            #min: { x: 0.4, y: -0.2, z: 0.0 }
-            #max: { x: 0.7, y:  0.2, z: 0.01 }
+            #min: { x: -0.18, y: -0.95, z: 0.475 }
+            #max: { x: 0.18, y:  0.05, z: 0.9 }
+  - name: in_front_of
+    shape:
+      - box:
+            min: { x: 0.4, y: -0.9, z: 0.0 }
+            max: { x: 0.7, y:  0.9, z: 0.01 }
   - name: near
     offset: 0.7
