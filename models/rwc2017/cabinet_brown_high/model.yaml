@@ -1,17 +1,17 @@
 areas:
 -   name: near
     offset: 0.7
--   name: on_top_of
-    shape:
-    -   box:
-            max:
-                x: 0.19
-                y: 0.57
-                z: 2.01
-            min:
-                x: -0.19
-                y: -0.57
-                z: 1.76
+#-   name: on_top_of
+    #shape:
+    #-   box:
+            #max:
+                #x: 0.19
+                #y: 0.57
+                #z: 2.01
+            #min:
+                #x: -0.19
+                #y: -0.57
+                #z: 1.76
 -   name: in_front_of
     shape:
     -   box:

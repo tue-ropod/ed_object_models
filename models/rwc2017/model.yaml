@@ -112,6 +112,35 @@ composition:
       z: 0.0
       Z: 1.57079632679
 
+- type: "rwc2017/cabinet_brown_low"
+  id: "sideboard"
+  pose:
+      x: 2.31
+      y: -0.255
+      z: 0.0
+      Z: -1.57079632679
+- type: "rwc2017/cabinet_brown_high"
+  id: "sideboard_high"
+  pose:
+      x: 3.51
+      y: -0.255
+      z: 0.0
+      Z: -1.57079632679
+- type: "rwc2017/tv_stand"
+  id: "tv"
+  pose:
+      x: -2.255
+      y: -5.02
+      z: 0.0
+      Z: 0.0
+- type: "rwc2017/desk"
+  id: "desk"
+  pose:
+      x: -2.15
+      y: -2.575
+      z: 0.0
+      Z: 0.0
+
 # - - - - - - - - - - - - - - - - - - - - - - - - -
 
 - type: "waypoint"
@@ -149,7 +178,7 @@ composition:
  
 - type: "waypoint"
   id: "gpsr_meeting_point"
-  pose: { x: -1.8, y: -5.60, z: 0, Z: 0.0 }
+  pose: { x: 9.4, y: -5.50, z: 0, Z: 3.1415 }
 - type: "waypoint"
   id: "gpsr_exit_door"
   pose: { x: 0.0, y: 1.0, z: 0, Z: 1.57079632679 }
