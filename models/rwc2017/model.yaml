@@ -182,6 +182,41 @@ composition:
       y: -8.055
       z: 0.0
       Z: 0.0
+- type: "rwc2017/teepee"
+  id: "teepee"
+  pose:
+      x: 8.85
+      y: -1.0
+      z: 0.0
+      Z: -1.75
+- type: "rwc2017/carpet"
+  id: "carpet"
+  pose:
+      x: 8.85
+      y: -1.0
+      z: 0.0
+      Z: 0.0
+- type: "rwc2017/umbrella_holder"
+  id: "umbrella_holder"
+  pose:
+      x: 6.9
+      y: -8.6
+      z: 0.0
+      Z: 0.78539816339
+- type: "rwc2017/shelf_light"
+  id: "left_planks"
+  pose:
+      x: 2.285
+      y: -7.4
+      z: 0.0
+      Z: 3.14159265359
+- type: "rwc2017/shelf_light"
+  id: "right_planks"
+  pose:
+      x: 1.96
+      y: -8.66
+      z: 0.0
+      Z: 2.35619449019
 
 # - - - - - - - - - - - - - - - - - - - - - - - - -
 
