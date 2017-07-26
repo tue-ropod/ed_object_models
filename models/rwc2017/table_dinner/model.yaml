@@ -5,13 +5,24 @@ areas:
     shape:
     -   box:
             max:
-                x: 0.77
+                x: 0.79
                 y: 0.35
                 z: 1.07
             min:
-                x: -0.77
+                x: 0.39
                 y: -0.35
                 z: 0.82
+-   name: on_top_of_back
+    shape:
+    -   box:
+            max:
+                x: -0.39
+                y: 0.35
+                z: 1.07
+            min:
+                x: -0.79
+                y: -0.35
+                z: 0.82            
 -   name: in_front_of
     shape:
     -   box:
