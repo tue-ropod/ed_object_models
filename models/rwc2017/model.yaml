@@ -168,6 +168,20 @@ composition:
       y: -5.9
       z: 0.0
       Z: -1.57079632679
+- type: "rwc2017/shelf_black"
+  id: "kitchen_rack"
+  pose:
+      x: 2.29
+      y: -3.12
+      z: 0.0
+      Z: 0.1292036732
+- type: "rwc2017/shelf_black"
+  id: "balcony_shelf"
+  pose:
+      x: -2.27
+      y: -8.055
+      z: 0.0
+      Z: 0.0
 
 # - - - - - - - - - - - - - - - - - - - - - - - - -
 
