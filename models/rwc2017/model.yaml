@@ -44,7 +44,7 @@ composition:
       z: 0.0
       Z: 3.14159265359
 - type: "rwc2017/kitchencounter"
-  id: "kithcen_counter"
+  id: "kitchen_counter"
   pose:
       x: 6.10
       y: -3.60
@@ -58,7 +58,7 @@ composition:
       z: 0.0
       Z: 3.14159265359
 - type: "rwc2017/cabinet_black"
-  id: "Entrance_shelf"
+  id: "entrance_shelf"
   pose:
       x: 6.655
       y: -7.21
@@ -152,6 +152,20 @@ composition:
   pose:
       x: -1.31
       y: -5.2
+      z: 0.0
+      Z: -1.57079632679
+- type: "rwc2017/sofa"
+  id: "sofa"
+  pose:
+      x: 0.7
+      y: -5.565
+      z: 0.0
+      Z: 3.14159265359
+- type: "rwc2017/foot_stool"
+  id: "foot_stool"
+  pose:
+      x: -0.6
+      y: -5.9
       z: 0.0
       Z: -1.57079632679
 
@@ -254,5 +268,5 @@ composition:
   - name: in
     shape:
     - box:
-        min: { x: -1.40, y: -2.20, z: 0 }
-        max: { x: 3.20, y: 0.75, z: 0.01 }
+        min: { x: -1.35, y: -2.20, z: 0 }
+        max: { x: 3.15, y: 0.75, z: 0.01 }

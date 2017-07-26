@@ -5,23 +5,23 @@ areas:
     shape:
     -   box:
             max:
-                x: 0.35
-                y: 0.37
+                y: 0.35
+                x: 0.37
                 z: 0.6
             min:
-                x: -0.35
-                y: -0.37
+                y: -0.35
+                x: -0.37
                 z: 0.35
 -   name: in_front_of
     shape:
     -   box:
             max:
-                x: 0.98
-                y: 0.3
+                y: 0.9
+                x: 0.3
                 z: 0.01
             min:
-                x: 0.78
-                y: -0.3
+                y: 0.7
+                x: -0.3
                 z: 0.0
 color:
     blue: 0.75
@@ -32,10 +32,10 @@ shape:
     -   box:
             '#': Main object
             pose:
-                x: 0
                 y: 0
+                x: 0
                 z: 0.165
             size:
-                x: 0.76
-                y: 0.8
+                y: 0.76
+                x: 0.8
                 z: 0.33
