@@ -187,6 +187,9 @@ composition:
 - type: "waypoint"
   id: "exit_4_rips"
   pose: { x: 0.0, y: -2.0, z: 0, Z: 1.5708 }
+- type: "waypoint"
+  id: "help_me_carry_start"
+  pose: { x: 5.00, y: -5.60, z: 0 }
 
 ## - - - - - - CHALLENGE GPSR - - - - - - - - - -
  
