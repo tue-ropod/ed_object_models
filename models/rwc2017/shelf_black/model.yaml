@@ -56,10 +56,10 @@ areas:
                 x: -0.14
                 y: -0.245
                 z: 1.3
-color:
-    blue: 0.75
-    green: 0.75
-    red: 0.75
+#color:
+    #blue: 0.75
+    #green: 0.75
+    #red: 0.75
 shape:
     compound:
     -   box:
