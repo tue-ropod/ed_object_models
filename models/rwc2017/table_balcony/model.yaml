@@ -5,12 +5,12 @@ areas:
     shape:
     -   box:
             max:
-                x: 0.7
-                y: 0.2
+                x: 0.9
+                y: 0.3
                 z: 0.01
             min:
                 x: 0.5
-                y: -0.2
+                y: -0.3
                 z: 0
 -   name: on_top_of
     shape:
