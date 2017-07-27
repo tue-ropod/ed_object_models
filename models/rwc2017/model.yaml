@@ -11,7 +11,7 @@ composition:
       x: 0
       y: 0
       z: 0
-      
+
 - type: "rwc2017/wall_270"
   id: "wall_270"
   pose:
@@ -35,7 +35,7 @@ composition:
       y: -4.93
       z: 0.0
       Z: 0.0
-      
+
 - type: "rwc2017/bed"
   id: "bed"
   pose:
@@ -64,7 +64,7 @@ composition:
       y: -7.21
       z: 0.0
       Z: 0.0
-      
+
 - type: "rwc2017/cabinet_showcase"
   id: "bookcase"
   pose:
@@ -72,7 +72,7 @@ composition:
       y: -4.10
       z: 0.0
       Z: 3.27079632679
-      
+
 - type: "rwc2017/rack_left"
   id: "left_rack"
   pose:
@@ -80,7 +80,7 @@ composition:
       y: -0.18
       z: 0.0
       Z: -1.57079632679
-      
+
 - type: "rwc2017/rack_middle"
   id: "middle_rack"
   pose:
@@ -95,7 +95,7 @@ composition:
       y: -0.18
       z: 0.0
       Z: -1.57079632679
-      
+
 - type: "rwc2017/table_balcony"
   id: "bistro_table"
   pose:
@@ -103,7 +103,7 @@ composition:
       y: -7.7
       z: 0.0
       Z: 1.57079632679
-      
+
 - type: "rwc2017/table_dinner"
   id: "kitchen_table"
   pose:
@@ -259,10 +259,10 @@ composition:
   pose: { x: 0.0, y: -2.0, z: 0, Z: 1.5708 }
 - type: "waypoint"
   id: "help_me_carry_start"
-  pose: { x: 5.00, y: -5.60, z: 0 }
+  pose: { x: 3.50, y: -5.60, z: 0 }
 
 ## - - - - - - CHALLENGE GPSR - - - - - - - - - -
- 
+
 - type: "waypoint"
   id: "gpsr_meeting_point"
   pose: { x: 9.4, y: -5.50, z: 0, Z: 3.1415 }
