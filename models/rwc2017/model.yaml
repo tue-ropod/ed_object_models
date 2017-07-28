@@ -287,7 +287,7 @@ composition:
   pose: { x: 0.0, y: -6.0, z: 0, Z: -1.5708 }
 - type: "waypoint"
   id: "hsr_demo_waypoint"
-  pose: { x: 4.0, y: -4.2, z: 0, Z: -0.8 }
+  pose: { x: 4.278, y: -4.2286, z: 0, Z: -0.6158 }
 
 
 # - - - - - - ROOMS - - - - - - -
