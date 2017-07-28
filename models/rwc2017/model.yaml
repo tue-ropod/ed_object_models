@@ -297,8 +297,8 @@ composition:
   - name: in
     shape:
     - box:
-        min: { x: -0.25, y: -0.40, z: 0 }
-        max: { x: 0.25, y: 0.40, z: 0.01 }
+        min: { x: -0.7, y: -0.40, z: 0 }
+        max: { x: 0.7, y: 0.40, z: 0.01 }
 - type: "room"
   id: "corridor"
   pose: { x: 6.50, y: -5.70, z: 0 }
