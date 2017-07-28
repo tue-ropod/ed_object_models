@@ -27,7 +27,7 @@ areas:
     shape:
     -   box:
             max:
-                x: 1.6
+                x: 1.7
                 y: 0.28
                 z: 0.01
             min:
