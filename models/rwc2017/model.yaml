@@ -291,14 +291,14 @@ composition:
         min: { x: -2.20, y: -2.10, z: 0 }
         max: { x: 1.80, y: 2.55, z: 0.01 }
 - type: "room"
-  id: "exit"
+  id: "exit_area"
   pose: { x: 0.00, y: -0.40, z: 0 }
   areas:
   - name: in
     shape:
     - box:
-        min: { x: -0.50, y: -0.40, z: 0 }
-        max: { x: 0.50, y: 0.40, z: 0.01 }
+        min: { x: -0.25, y: -0.40, z: 0 }
+        max: { x: 0.25, y: 0.40, z: 0.01 }
 - type: "room"
   id: "corridor"
   pose: { x: 6.50, y: -5.70, z: 0 }

@@ -22,6 +22,6 @@ balcony; min1; -2,40; -9,40
 balcony; max1; 2,20; -6,60
 balcony; center; -1,00; -7,20
 
-exit; min1; -0.5; -0.8
-exit; max1; 0.5; 0.0
+exit; min1; -0.25; -0.8
+exit; max1; 0.25; 0.0
 exit; center; 0.0; -0.4
