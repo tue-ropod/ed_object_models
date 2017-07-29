@@ -127,12 +127,19 @@ composition:
       z: 0.0
       Z: -1.57079632679
 - type: "rwc2017/tv_stand"
-  id: "tv"
+  id: "tv_stand"
   pose:
       x: -2.255
       y: -5.02
       z: 0.0
       Z: 0.0
+- type: "rwc2017/tv"
+  id: "tv"
+  pose:
+      x: -1.8
+      y: -5.1
+      z: 0.45
+      Z: -1.1
 - type: "rwc2017/desk"
   id: "desk"
   pose:
