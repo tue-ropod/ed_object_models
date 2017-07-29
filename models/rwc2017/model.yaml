@@ -99,7 +99,7 @@ composition:
 - type: "rwc2017/table_balcony"
   id: "bistro_table"
   pose:
-      x: -1.1
+      x: 1.1
       y: -9.33
       z: 0.0
       Z: 1.57079632679
