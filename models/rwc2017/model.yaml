@@ -136,10 +136,10 @@ composition:
 - type: "rwc2017/tv"
   id: "tv"
   pose:
-      x: -1.8
+      x: -1.85
       y: -5.1
       z: 0.45
-      Z: -1.1
+      Z: -1.0
 - type: "rwc2017/desk"
   id: "desk"
   pose:
@@ -157,10 +157,10 @@ composition:
 - type: "rwc2017/table_salon"
   id: "coffee_table"
   pose:
-      x: -1.5
+      x: -1.75
       y: -5.0
       z: 0.0
-      Z: 0.0
+      Z: -1.57079632679
 - type: "rwc2017/sofa"
   id: "sofa"
   pose:
