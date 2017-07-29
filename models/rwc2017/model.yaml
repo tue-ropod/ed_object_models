@@ -157,14 +157,14 @@ composition:
 - type: "rwc2017/sofa"
   id: "sofa"
   pose:
-      x: -0.5
+      x: -0.85
       y: -9.85
       z: 0.0
       Z: 1.57079632679
 - type: "rwc2017/foot_stool"
   id: "foot_stool"
   pose:
-      x: -1.65
+      x: -2.0
       y: -9.5
       z: 0.0
       Z: 0.0
@@ -353,7 +353,7 @@ composition:
   - name: in
     shape:
     - box:
-        min: { x: -1.40, y: -2.20, z: 0 }
-        max: { x: 3.20, y: 0.6, z: 0.01 } 
+        min: { x: -1.45, y: -2.60, z: 0 }
+        max: { x: 2.00, y: 0.90, z: 0.01 }
 
 
