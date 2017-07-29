@@ -10,13 +10,13 @@ areas:
                 z: 0.01
             min:
                 x: 0.62
-                y: -0.5
+                y: -0.2
                 z: 0.0
 -   name: on_top_of
     shape:
     -   box:
             max:
-                x: 0.2
+                x: 0.215
                 y: 0.57
                 z: 1.25
             min:
@@ -27,7 +27,7 @@ areas:
     shape:
     -   box:
             max:
-                x: 0.2
+                x: 0.215
                 y: 0.56
                 z: 0.8
             min:

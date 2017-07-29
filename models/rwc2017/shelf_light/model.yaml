@@ -30,6 +30,16 @@ areas:
 shape:
     compound:
     -   box:
+            '#': back
+            pose:
+                x: -0.145
+                y: 0.0
+                z: 0.33
+            size:
+                x: 0.01
+                y: 1.0
+                z: 0.66
+    -   box:
             '#': Shelf 1
             pose:
                 x: 0.0

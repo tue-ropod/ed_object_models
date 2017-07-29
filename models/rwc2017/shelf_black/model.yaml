@@ -63,6 +63,16 @@ areas:
 shape:
     compound:
     -   box:
+            '#': back
+            pose:
+                x: -0.165
+                y: 0.0
+                z: 0.7
+            size:
+                x: 0.01
+                y: 0.59
+                z: 1.4
+    -   box:
             '#': Left side
             pose:
                 x: 0
