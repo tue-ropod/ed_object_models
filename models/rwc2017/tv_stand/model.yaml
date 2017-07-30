@@ -8,6 +8,10 @@ shape:
       - box:
             pose: {x: 0, y: -0.45,  z: 0.375}
             size: {x: 0.39, y: 1.05,  z: 0.15}
+    # back
+      - box:
+            pose: {x: -0.19, y: 0.0,  z: 0.15}
+            size: {x: 0.01, y: 1.8,  z: 0.3}
 
 areas:
   #- name: on_top_of

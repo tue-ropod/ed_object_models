@@ -30,6 +30,16 @@ areas:
 shape:
     compound:
     -   box:
+            '#': back
+            pose:
+                x: -0.295
+                y: 0
+                z: 0.355
+            size:
+                x: 0.01
+                y: 1.15
+                z: 0.71
+    -   box:
             '#': Table top
             pose:
                 x: 0
