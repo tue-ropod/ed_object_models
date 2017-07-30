@@ -157,7 +157,7 @@ composition:
 - type: "rwc2017/table_salon"
   id: "coffee_table"
   pose:
-      x: -1.75
+      x: -1.55
       y: -5.1
       z: 0.0
       Z: -1.57079632679
