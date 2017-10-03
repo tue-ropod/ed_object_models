@@ -257,7 +257,7 @@ composition:
 
     - type: "waypoint"
       id: "initial_pose"
-      pose: { x: 0.586, y: 4.259, z: 0, rz: 0 }
+      pose: { x: 0.586, y: 4.259, z: 0, Z: 0 }
     - type: "waypoint"
       id: "robonurse_initial"
       pose: { x: 0.586, y: 4.259, z: 0, rz: 0 }
@@ -316,7 +316,11 @@ composition:
       id: "door_opening_right_start"
       pose: { x: 0.862, y: 4.8, z: 0, rz: 1.5708 }
 
-      # -0,168, 6,216
+# - - - - - - - - HELP-ME-CARRY - - - - - - - - - -
+
+    - type: "waypoint"
+      id: "help_me_carry_starting_point"
+      pose: { x: 1.65, y: 2.00, z: 0, Z: 1.5708 }
 
 # - - - - - - CHALLENGE BASIC FUNCTIONALITIES - - - - - - -
 
