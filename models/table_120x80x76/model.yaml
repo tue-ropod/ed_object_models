@@ -33,7 +33,7 @@ areas:
   - name: on_top_of
     shape:
       - box:
-            min: { x: -0.6, y: -0.4, z: 0.82 }
+            min: { x: -0.6, y: -0.4, z: 0.78 }
             max: { x:  0.6, y:  0.4, z: 1.20 }
   - name: under
     shape:
