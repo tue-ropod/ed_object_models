@@ -88,22 +88,25 @@ composition:
 
 - type: "room"
   id: "living_room"
-  pose: { x: 1.80, y: 5.25, z: 0 }
+  pose: { x: 3.00, y: 6.00, z: 0 }
   areas:
   - name: in
     shape:
     - box:
-        min: { x: -1.66, y: -1.55, z: 0 }
-        max: { x: 2.29, y: 2.15, z: 0.01 }
+        min: { x: -3.00, y: -2.5, z: 0 }
+        max: { x: 1.00, y: 2.40, z: 0.01 }
+    - box:
+        min: { x: 1.00, y: -2.50, z: 0 }
+        max: { x: 4.00, y: 0.00, z: 0.01 }
 - type: "room"
   id: "bedroom"
-  pose: { x: 8.00, y: 0.00, z: 0 }
+  pose: { x: 5.50, y: 0.00, z: 0 }
   areas:
   - name: in
     shape:
     - box:
-        min: { x: -2.80, y: -1.35, z: 0 }
-        max: { x: 1.70, y: 3.30, z: 0.01 }
+        min: { x: -2.50, y: -1.35, z: 0 }
+        max: { x: 2.50, y: 3.45, z: 0.01 }
 - type: "room"
   id: "dining_room"
   pose: { x: 3.00, y: 0.00, z: 0 }
@@ -111,17 +114,21 @@ composition:
   - name: in
     shape:
     - box:
-        min: { x: -2.86, y: -1.35, z: 0 }
-        max: { x: 1.90, y: 3.44, z: 0.01 }
+        min: { x: -3, y: -1.35, z: 0 }
+        max: { x: 2, y: 3.45, z: 0.01 }
 - type: "room"
   id: "kitchen"
-  pose: { x: 6.00, y: 6.00, z: 0 }
+  pose: { x: 7.00, y: 7.00, z: 0 }
   areas:
   - name: in
     shape:
     - box:
-        min: { x: -2.30, y: -1.90, z: 0 }
-        max: { x: 3.70, y: 1.40, z: 0.01 }
+        min: { x: 0, y: -3.50, z: 0 }
+        max: { x: 2.70, y: 1.50, z: 0.01 }
+    - box:
+        min: { x: -3.00, y: -1.00, z: 0 }
+        max: { x: 2.70, y: 1.50, z: 0.01 }
+
 
 # - - - - - - - - - - - - - - - - - - - - - - - - -
 
