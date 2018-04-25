@@ -5,57 +5,84 @@ composition:
 - type: "rgo2018/walls"
   id: "walls"
   pose: { x: 0, y: 0, z: 0 }
-- id: dinner_table
+
+# Dining room
+- id: dining_table
   type: rgo2018/table_dinner
   pose: { x: 2.447, y: 1.1695, z: 0.0, Z: 3.141592 }
-- id: cabinet
+- id: display_case
   type: rgo2018/bookcase
   pose: { x: 2.271, y: -1.258, z: 0.0, Z: 1.570796 }
-- id: bookshelf
+- id: cabinet
   type: rgo2018/bookcase
   pose: { x: 0.144, y: 3.574, z: 0.0, Z: 0 }
-- id: sofa
+- id: storage_shelf
+  type: rgo2018/bookcase
+  pose: { x: 4.8, y: 2.5, z: 0.0, Z: 3.141592 }
+
+# Living room
+- id: couch
   type: rgo2018/couch
-  pose: { x: 0.44, y: 6.18, z: 0.0, Z: 0 }
+  pose: { x: 0.94, y: 7.18, z: 0.0, Z: -0.78 }
 - id: couch_table
   type: rgo2018/table_salon_double
-  pose: { x: 1.688, y: 6.230, z: 0.0, Z: -1.570796 }
+  pose: { x: 1.688, y: 6.230, z: 0.0, Z: -2.356194 }
+- id: cupboard
+  type: rgo2018/table_salon
+  pose: { x: 3.0, y: 8.0, z: 0.0, Z: -1.570796 }
+- id: tv
+  type: rgo2018/tv
+  pose: { x: 5.0, y: 4.08, z: 0.0, Z: 1.570796 }
+- id: tv_table
+  type: rgo2018/table_salon
+  pose: { x: 5.0, y: 5.0, z: 0.0, Z: -1.570796 }
 #- id: armchair1
   #type: rgo2018/armchair
   #pose: { x: 2.600, y: 7.000, z: 0.0, Z: 0.6 }
 #- id: armchair2
   #type: rgo2018/armchair
   #pose: { x: 2.600, y: 5.750, z: 0.0, Z: -2 }
-- id: armchair3
-  type: rgo2018/armchair
-  pose: { x: 9.331, y: 3.696, z: 0.0, Z: -2 }
-- id: side_table
-  type: rgo2018/table_salon
-  pose: { x: 4.206, y: 7.097, z: 0.0, Z: -1.570796 }
-- id: stove
-  type: rgo2018/kitchen_sink
-  pose: { x: 4.955, y: 3.903, z: 0.0, Z: 1.570796 }
-- id: kitchencounter
-  type: rgo2018/kitchen_sink
-  pose: { x: 3.447, y: 3.903, z: 0.0, Z: 1.570796 }
-- id: closet
-  type: rgo2018/bookcase
-  pose: { x: 6.562, y: -1.252, z: 0.0, Z: 1.570796 }
-- id: bar
+# - id: armchair3
+#   type: rgo2018/armchair
+#   pose: { x: 9.331, y: 3.696, z: 0.0, Z: -2 }
+
+# Kitchen
+- id: kitchen_table
+  type: rgo2018/table_dinner
+  pose: { x: 6.0, y: 8.0, z: 0.0, Z: 3.141592 }
+- id: bar  # ToDo: update: the bar consists of two bar tables
   type: rgo2018/table_party
-  pose: { x: 8.545, y: 6.759, z: 0.0, Z: -2 }
-- id: table_bedroom
-  type: rgo2018/table_salon
-  pose: { x: 5.352, y: -1.146, z: 0.0, Z: 1.570796 }
+  pose: { x: 9.3, y: 7.759, z: 0.0, Z: -2 }
+- id: kitchen_cabinet
+  type: rgo2018/kitchen_sink
+  pose: { x: 9.6, y: 4.0, z: 0.0, Z: 3.141592 }
+- id: sink
+  type: rgo2018/kitchen_sink
+  pose: { x: 9.6, y: 5.3, z: 0.0, Z: 3.141592 }
+
+# Bedroom
 - id: bed
   type: rgo2018/bed_frame
-  pose: { x: 6.209, y: 2.175, z: 0.0, Z: -1.570796 }
+  pose: { x: 6.209, y: -1.0, z: 0.0, Z: -1.570796 }
+- id: side_table
+  type: rgo2018/table_salon
+  pose: { x: 5.352, y: 0.0, z: 0.0, Z: 1.570796 }
+- id: bookcase
+  type: rgo2018/bookcase
+  pose: { x: 9.7, y: 2.0, z: 0.0, Z: 3.141592 }
 - id: desk
-  type: rgo2018/table_bureau
-  pose: { x: 9.331, y: 4.896, z: 0.0, Z: 3.141592 }
-- id: tv
-  type: rgo2018/tv
-  pose: { x: 6.720, y: 4.08, z: 0.0, Z: 1.570796 }
+  type: rgo2018/table_party
+  pose: { x: 6.0, y: 2.5, z: 0.0, Z: 3.141592 }
+
+# - id: side_table
+#   type: rgo2018/table_salon
+#   pose: { x: 2.7, y: 8.097, z: 0.0, Z: -1.570796 }
+
+
+
+
+
+
 
 # - - - - - - - - - Rooms - - - - - - - - - - - - -
 
@@ -160,7 +187,7 @@ composition:
   pose: { x: 4.0, y: 6.0, z: 0, Z: 3.1415 }
 
 - id: "trashbin"
-  pose: { x: 6.4, y: 7.15, z: 0 }
+  pose: { x: 0.2, y: 5.0, z: 0 }
   shape:
     box:
       min: { x: -0.215, y: -0.165, z: 0 }
