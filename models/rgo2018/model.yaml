@@ -12,10 +12,10 @@ composition:
   pose: { x: 2.447, y: 1.1695, z: 0.0, Z: 3.141592 }
 - id: display_case
   type: rgo2018/bookcase
-  pose: { x: 2.271, y: -1.258, z: 0.0, Z: 1.570796 }
+  pose: { x: 3.171, y: -1.258, z: 0.0, Z: 1.570796 }
 - id: cabinet
   type: rgo2018/bookcase
-  pose: { x: 0.144, y: 3.574, z: 0.0, Z: 0 }
+  pose: { x: 0.144, y: 3.274, z: 0.0, Z: 0 }
 - id: storage_shelf
   type: rgo2018/bookcase
   pose: { x: 4.8, y: 2.5, z: 0.0, Z: 3.141592 }
