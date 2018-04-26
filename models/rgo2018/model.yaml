@@ -9,7 +9,7 @@ composition:
   pose: {Z: 3.141592, x: 2.447, y: 1.1695, z: 0.0}
   type: rgo2018/table_dinner
 - id: display_case
-  pose: {Z: 1.5707959999999999, x: 3.171, y: -1.258, z: 0.0}
+  pose: {Z: 1.5708000000000002, x: 3.161616, y: -1.280407, z: 0.0}
   type: rgo2018/bookcase
 - id: cabinet
   pose: {Z: 0.0, x: 0.144, y: 3.274, z: 0.0}
@@ -18,43 +18,43 @@ composition:
   pose: {Z: 3.141592, x: 4.8, y: 2.5, z: 0.0}
   type: rgo2018/bookcase
 - id: couch
-  pose: {Z: -0.836636, x: 0.952705, y: 7.609006, z: 0.0}
+  pose: {Z: -0.7854000000000001, x: 0.930263, y: 7.469865, z: 0.0}
   type: rgo2018/couch
 - id: couch_table
-  pose: {Z: -2.356194, x: 1.688, y: 6.23, z: 0.0}
+  pose: {Z: 0.7854000000000001, x: 1.9894, y: 6.520836, z: 0.0}
   type: rgo2018/table_salon_double
 - id: cupboard
-  pose: {Z: -1.5707959999999999, x: 3.0, y: 8.0, z: 0.0}
+  pose: {Z: -1.5708000000000002, x: 3.262123, y: 8.183156, z: 0.0}
   type: rgo2018/table_salon
 - id: tv
   pose: {Z: 1.570796, x: 5.0, y: 4.08, z: 0.0}
   type: rgo2018/tv
 - id: tv_table
-  pose: {Z: -1.5707959999999999, x: 5.0, y: 5.0, z: 0.0}
+  pose: {Z: -1.5707959999999996, x: 5.0, y: 5.0, z: 0.0}
   type: rgo2018/table_salon
 - id: kitchen_table
-  pose: {Z: 3.141592, x: 6.0, y: 8.0, z: 0.0}
+  pose: {Z: 0.0, x: 5.922403, y: 8.027883, z: 0.0}
   type: rgo2018/table_dinner
 - id: bar
-  pose: {Z: -1.9999999999999998, x: 9.3, y: 7.759, z: 0.0}
+  pose: {Z: -2.3562, x: 9.000983, y: 7.637266, z: 0.0}
   type: rgo2018/table_party
 - id: kitchen_cabinet
   pose: {Z: 3.141592, x: 9.6, y: 4.0, z: 0.0}
   type: rgo2018/kitchen_sink
 - id: sink
-  pose: {Z: 3.141592, x: 9.6, y: 5.3, z: 0.0}
+  pose: {Z: 3.141585, x: 9.596951, y: 5.198593, z: 0.0}
   type: rgo2018/kitchen_sink
 - id: bed
-  pose: {Z: -1.5707959999999999, x: 6.209, y: -1.0, z: 0.0}
+  pose: {Z: -1.5708000000000002, x: 6.076955, y: -0.96774, z: 0.0}
   type: rgo2018/bed_frame
 - id: side_table
-  pose: {Z: 1.5707959999999999, x: 5.352, y: 0.0, z: 0.0}
+  pose: {Z: -1.5708000000000002, x: 5.389153, y: -0.132353, z: 0.0}
   type: rgo2018/table_salon
 - id: bookcase
   pose: {Z: 3.141592, x: 9.7, y: 2.0, z: 0.0}
   type: rgo2018/bookcase
 - id: desk
-  pose: {Z: 3.141592, x: 6.0, y: 2.5, z: 0.0}
+  pose: {Z: -0.7854000000000001, x: 5.768366, y: 2.87248, z: 0.0}
   type: rgo2018/table_party
 - areas:
   - name: in
