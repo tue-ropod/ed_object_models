@@ -108,7 +108,9 @@ composition:
   pose: {rz: 0, x: -0.4, y: 0.0, z: 0}
   type: waypoint
 - id: initial_pose_2
-  pose: {rz: 1.571, x: 9.5, y: -2.0, z: 0}
+  pose: {Z: 1.571, x: 8.48, y: -1.9, z: 0}
+
+#rips
   type: waypoint
 - id: registration_table1
   pose: {x: 5.0, y: 7.0, z: 0}
@@ -131,8 +133,10 @@ composition:
 - id: exit_4_rips
   pose: {Z: -1.571, x: 8.45, y: 0.0, z: 0}
   type: waypoint
-- id: gpsr_meeting_point_1_old
-  pose: {Z: 0, x: 1.5, y: 4.25, z: 0}
+
+
+- id: gpsr_meeting_point
+  pose: {Z: -3.141592, x: 5.0, y: 6.6, z: 0}
   type: waypoint
 - id: gpsr_exit_door_1
   pose: {Z: -1.571, x: 8.45, y: -2.8, z: 0}
