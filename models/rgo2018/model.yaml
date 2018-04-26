@@ -6,7 +6,7 @@ composition:
   pose: {x: 0, y: 0, z: 0}
   type: rgo2018/walls
 - id: dining_table
-  pose: {Z: 3.141585, x: 2.454086, y: 1.126599, z: 0.0}
+  pose: {Z: 3.141585, x: 2.53, y: 1.08, z: 0.0}
   type: rgo2018/table_dinner
 - id: display_case
   pose: {Z: 1.5708000000000004, x: 3.02732, y: -1.283567, z: 0.0}
@@ -146,9 +146,6 @@ composition:
   type: waypoint
 - id: gpsr_exit_door_2
   pose: {Z: --3.1415, x: -1.0, y: 0.0, z: 0}
-  type: waypoint
-- id: gpsr_meeting_point_1
-  pose: {Z: -0.1745, x: 0.8, y: 2.6, z: 0}
   type: waypoint
 - id: challenge_open_ask_waypoint
   pose: {Z: 3.1415, x: 4.0, y: 6.0, z: 0}
