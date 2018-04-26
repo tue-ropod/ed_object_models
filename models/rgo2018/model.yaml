@@ -56,6 +56,9 @@ composition:
 - id: desk
   pose: {Z: -0.7854000000000001, x: 5.768366, y: 2.87248, z: 0.0}
   type: rgo2018/table_party
+
+
+# Areas
 - areas:
   - name: in
     shape:
@@ -98,20 +101,23 @@ composition:
   id: kitchen
   pose: {x: 7.0, y: 7.0, z: 0}
   type: room
+
+
+# Waypoints
 - id: initial_pose
-  pose: {rz: 0, x: -1.0, y: 0.0, z: 0}
+  pose: {rz: 0, x: -0.4, y: 0.0, z: 0}
   type: waypoint
 - id: initial_pose_2
   pose: {rz: 1.571, x: 9.5, y: -2.0, z: 0}
   type: waypoint
 - id: registration_table1
-  pose: {x: 5.0, y: 6.0, z: 0}
+  pose: {x: 5.0, y: 7.0, z: 0}
   type: waypoint
 - id: registration_table2
-  pose: {x: 3.0, y: 6.0, z: 0}
+  pose: {x: 3.0, y: 7.0, z: 0}
   type: waypoint
 - id: registration_table3
-  pose: {x: 7.0, y: 6.0, z: 0}
+  pose: {x: 7.0, y: 7.0, z: 0}
   type: waypoint
 - id: exit_1_rips
   pose: {Z: -1.571, x: 8.45, y: -2.8, z: 0}
