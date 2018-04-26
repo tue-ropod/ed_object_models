@@ -1,207 +1,154 @@
 composition:
-- type: "floor"
-  id: "floor"
-  pose: { x: 0, y: 0, z: 0 }
-- type: "rgo2018/walls"
-  id: "walls"
-  pose: { x: 0, y: 0, z: 0 }
-
-# Dining room
+- id: floor
+  pose: {x: 0, y: 0, z: 0}
+  type: floor
+- id: walls
+  pose: {x: 0, y: 0, z: 0}
+  type: rgo2018/walls
 - id: dining_table
+  pose: {Z: 3.141592, x: 2.447, y: 1.1695, z: 0.0}
   type: rgo2018/table_dinner
-  pose: { x: 2.447, y: 1.1695, z: 0.0, Z: 3.141592 }
 - id: display_case
+  pose: {Z: 1.5707959999999999, x: 3.171, y: -1.258, z: 0.0}
   type: rgo2018/bookcase
-  pose: { x: 3.171, y: -1.258, z: 0.0, Z: 1.570796 }
 - id: cabinet
+  pose: {Z: 0.0, x: 0.144, y: 3.274, z: 0.0}
   type: rgo2018/bookcase
-  pose: { x: 0.144, y: 3.274, z: 0.0, Z: 0 }
 - id: storage_shelf
+  pose: {Z: 3.141592, x: 4.8, y: 2.5, z: 0.0}
   type: rgo2018/bookcase
-  pose: { x: 4.8, y: 2.5, z: 0.0, Z: 3.141592 }
-
-# Living room
 - id: couch
+  pose: {Z: -0.836636, x: 0.952705, y: 7.609006, z: 0.0}
   type: rgo2018/couch
-  pose: { x: 0.94, y: 7.18, z: 0.0, Z: -0.78 }
 - id: couch_table
+  pose: {Z: -2.356194, x: 1.688, y: 6.23, z: 0.0}
   type: rgo2018/table_salon_double
-  pose: { x: 1.688, y: 6.230, z: 0.0, Z: -2.356194 }
 - id: cupboard
+  pose: {Z: -1.5707959999999999, x: 3.0, y: 8.0, z: 0.0}
   type: rgo2018/table_salon
-  pose: { x: 3.0, y: 8.0, z: 0.0, Z: -1.570796 }
 - id: tv
+  pose: {Z: 1.570796, x: 5.0, y: 4.08, z: 0.0}
   type: rgo2018/tv
-  pose: { x: 5.0, y: 4.08, z: 0.0, Z: 1.570796 }
 - id: tv_table
+  pose: {Z: -1.5707959999999999, x: 5.0, y: 5.0, z: 0.0}
   type: rgo2018/table_salon
-  pose: { x: 5.0, y: 5.0, z: 0.0, Z: -1.570796 }
-#- id: armchair1
-  #type: rgo2018/armchair
-  #pose: { x: 2.600, y: 7.000, z: 0.0, Z: 0.6 }
-#- id: armchair2
-  #type: rgo2018/armchair
-  #pose: { x: 2.600, y: 5.750, z: 0.0, Z: -2 }
-# - id: armchair3
-#   type: rgo2018/armchair
-#   pose: { x: 9.331, y: 3.696, z: 0.0, Z: -2 }
-
-# Kitchen
 - id: kitchen_table
+  pose: {Z: 3.141592, x: 6.0, y: 8.0, z: 0.0}
   type: rgo2018/table_dinner
-  pose: { x: 6.0, y: 8.0, z: 0.0, Z: 3.141592 }
-- id: bar  # ToDo: update: the bar consists of two bar tables
+- id: bar
+  pose: {Z: -1.9999999999999998, x: 9.3, y: 7.759, z: 0.0}
   type: rgo2018/table_party
-  pose: { x: 9.3, y: 7.759, z: 0.0, Z: -2 }
 - id: kitchen_cabinet
+  pose: {Z: 3.141592, x: 9.6, y: 4.0, z: 0.0}
   type: rgo2018/kitchen_sink
-  pose: { x: 9.6, y: 4.0, z: 0.0, Z: 3.141592 }
 - id: sink
+  pose: {Z: 3.141592, x: 9.6, y: 5.3, z: 0.0}
   type: rgo2018/kitchen_sink
-  pose: { x: 9.6, y: 5.3, z: 0.0, Z: 3.141592 }
-
-# Bedroom
 - id: bed
+  pose: {Z: -1.5707959999999999, x: 6.209, y: -1.0, z: 0.0}
   type: rgo2018/bed_frame
-  pose: { x: 6.209, y: -1.0, z: 0.0, Z: -1.570796 }
 - id: side_table
+  pose: {Z: 1.5707959999999999, x: 5.352, y: 0.0, z: 0.0}
   type: rgo2018/table_salon
-  pose: { x: 5.352, y: 0.0, z: 0.0, Z: 1.570796 }
 - id: bookcase
+  pose: {Z: 3.141592, x: 9.7, y: 2.0, z: 0.0}
   type: rgo2018/bookcase
-  pose: { x: 9.7, y: 2.0, z: 0.0, Z: 3.141592 }
 - id: desk
+  pose: {Z: 3.141592, x: 6.0, y: 2.5, z: 0.0}
   type: rgo2018/table_party
-  pose: { x: 6.0, y: 2.5, z: 0.0, Z: 3.141592 }
-
-# - id: side_table
-#   type: rgo2018/table_salon
-#   pose: { x: 2.7, y: 8.097, z: 0.0, Z: -1.570796 }
-
-
-
-
-
-
-
-# - - - - - - - - - Rooms - - - - - - - - - - - - -
-
-- type: "room"
-  id: "living_room"
-  pose: { x: 3.00, y: 6.00, z: 0 }
-  areas:
+- areas:
   - name: in
     shape:
     - box:
-        min: { x: -3.00, y: -2.5, z: 0 }
-        max: { x: 1.00, y: 2.40, z: 0.01 }
+        max: {x: 1.0, y: 2.4, z: 0.01}
+        min: {x: -3.0, y: -2.5, z: 0}
     - box:
-        min: { x: 1.00, y: -2.50, z: 0 }
-        max: { x: 4.00, y: 0.00, z: 0.01 }
-- type: "room"
-  id: "bedroom"
-  pose: { x: 5.50, y: 0.00, z: 0 }
-  areas:
+        max: {x: 4.0, y: 0.0, z: 0.01}
+        min: {x: 1.0, y: -2.5, z: 0}
+  id: living_room
+  pose: {x: 3.0, y: 6.0, z: 0}
+  type: room
+- areas:
   - name: in
     shape:
     - box:
-        min: { x: -2.50, y: -1.35, z: 0 }
-        max: { x: 2.50, y: 3.45, z: 0.01 }
-- type: "room"
-  id: "dining_room"
-  pose: { x: 3.00, y: 0.00, z: 0 }
-  areas:
+        max: {x: 2.5, y: 3.45, z: 0.01}
+        min: {x: -2.5, y: -1.35, z: 0}
+  id: bedroom
+  pose: {x: 5.5, y: 0.0, z: 0}
+  type: room
+- areas:
   - name: in
     shape:
     - box:
-        min: { x: -3, y: -1.35, z: 0 }
-        max: { x: 2, y: 3.45, z: 0.01 }
-- type: "room"
-  id: "kitchen"
-  pose: { x: 7.00, y: 7.00, z: 0 }
-  areas:
+        max: {x: 2, y: 3.45, z: 0.01}
+        min: {x: -3, y: -1.35, z: 0}
+  id: dining_room
+  pose: {x: 3.0, y: 0.0, z: 0}
+  type: room
+- areas:
   - name: in
     shape:
     - box:
-        min: { x: 0, y: -3.50, z: 0 }
-        max: { x: 2.70, y: 1.50, z: 0.01 }
+        max: {x: 2.7, y: 1.5, z: 0.01}
+        min: {x: 0, y: -3.5, z: 0}
     - box:
-        min: { x: -3.00, y: -1.00, z: 0 }
-        max: { x: 2.70, y: 1.50, z: 0.01 }
-
-
-# - - - - - - - - - - - - - - - - - - - - - - - - -
-
-- type: "waypoint"
-  id: "initial_pose"
-  pose: { x: -1.00, y: 0.00, z: 0, rz: 0 }
-
-# Alternate entrance
-- type: "waypoint"
-  id: "initial_pose_2"
-  pose: { x: 9.50, y: -2.00, z: 0, rz: 1.571 }
-
-# - - - - - - CHALLENGE_RIPS WAYPOINTS - - - - - - -
-
-- type: "waypoint"
-  id: "registration_table1"
-  pose: { x: 5.00, y: 6.00, z: 0 }
-- type: "waypoint"
-  id: "registration_table2"
-  pose: { x: 3.00, y: 6.00, z: 0 }
-- type: "waypoint"
-  id: "registration_table3"
-  pose: { x: 7.00, y: 6.00, z: 0 }
-- type: "waypoint"
-  id: "exit_1_rips"
-  pose: { x: 8.450, y: -2.80, z: 0, Z: -1.571 }
-- type: "waypoint"
-  id: "exit_2_rips"
-  pose: { x: 8.450, y: -2.24, z: 0, Z: -1.571 }
-- type: "waypoint"
-  id: "exit_3_rips"
-  pose: { x: 8.450, y: -1.40, z: 0, Z: -1.571 }
-- type: "waypoint"
-  id: "exit_4_rips"
-  pose: { x: 8.450, y: 0.00, z: 0, Z: -1.571 }
-
-# - - - - - - CHALLENGE_GPSR WAYPOINTS - - - - - - -
-
-- type: "waypoint"
-  id: "gpsr_meeting_point_1_old"
-  pose: { x: 1.50, y: 4.25, z: 0, Z: 0 }
-- type: "waypoint"
-  id: "gpsr_exit_door_1"
-  pose: { x: 8.45, y: -2.80, z: 0, Z: -1.571 }
-- type: "waypoint"
-  id: "gpsr_meeting_point_2"
-  pose: { x: 1.50, y: 4.25, z: 0, Z: 0 }
-- type: "waypoint"
-  id: "gpsr_exit_door_2"
-  pose: { x: -1.00, y: 0.00, z: 0, Z: --3.1415 }
-  
-
-# - - - - - - CHALLENGE_EEGPSR WAYPOINTS - - - - - -
-
-- type: "waypoint"
-  id: "gpsr_meeting_point_1"
-  pose: { x: 0.80, y: 2.60, z: 0, Z: -0.1745 }
-
-  # - - - - - - CHALLENGE_OPEN SPECIFIC THINGS - - - - - - -
-
-- type: "waypoint"
-  id: "challenge_open_ask_waypoint"
-  pose: { x: 4.0, y: 6.0, z: 0, Z: 3.1415 }
-
-- id: "trashbin"
-  pose: { x: 0.2, y: 5.0, z: 0 }
+        max: {x: 2.7, y: 1.5, z: 0.01}
+        min: {x: -3.0, y: -1.0, z: 0}
+  id: kitchen
+  pose: {x: 7.0, y: 7.0, z: 0}
+  type: room
+- id: initial_pose
+  pose: {rz: 0, x: -1.0, y: 0.0, z: 0}
+  type: waypoint
+- id: initial_pose_2
+  pose: {rz: 1.571, x: 9.5, y: -2.0, z: 0}
+  type: waypoint
+- id: registration_table1
+  pose: {x: 5.0, y: 6.0, z: 0}
+  type: waypoint
+- id: registration_table2
+  pose: {x: 3.0, y: 6.0, z: 0}
+  type: waypoint
+- id: registration_table3
+  pose: {x: 7.0, y: 6.0, z: 0}
+  type: waypoint
+- id: exit_1_rips
+  pose: {Z: -1.571, x: 8.45, y: -2.8, z: 0}
+  type: waypoint
+- id: exit_2_rips
+  pose: {Z: -1.571, x: 8.45, y: -2.24, z: 0}
+  type: waypoint
+- id: exit_3_rips
+  pose: {Z: -1.571, x: 8.45, y: -1.4, z: 0}
+  type: waypoint
+- id: exit_4_rips
+  pose: {Z: -1.571, x: 8.45, y: 0.0, z: 0}
+  type: waypoint
+- id: gpsr_meeting_point_1_old
+  pose: {Z: 0, x: 1.5, y: 4.25, z: 0}
+  type: waypoint
+- id: gpsr_exit_door_1
+  pose: {Z: -1.571, x: 8.45, y: -2.8, z: 0}
+  type: waypoint
+- id: gpsr_meeting_point_2
+  pose: {Z: 0, x: 1.5, y: 4.25, z: 0}
+  type: waypoint
+- id: gpsr_exit_door_2
+  pose: {Z: --3.1415, x: -1.0, y: 0.0, z: 0}
+  type: waypoint
+- id: gpsr_meeting_point_1
+  pose: {Z: -0.1745, x: 0.8, y: 2.6, z: 0}
+  type: waypoint
+- id: challenge_open_ask_waypoint
+  pose: {Z: 3.1415, x: 4.0, y: 6.0, z: 0}
+  type: waypoint
+- id: trashbin
+  pose: {Z: 0.0, x: 0.2, y: 5.0, z: 0.0}
   shape:
     box:
-      min: { x: -0.215, y: -0.165, z: 0 }
-      max: { x: 0.215, y: 0.165, z: 0.33 }
-
-# - - - - - - CHALLENGE_EEGPSR WAYPOINTS - - - - - -
-
-- type: "waypoint"
-  id: "final_meeting_point"
-  pose: { x: 5.0, y: 7.0, z: 0, Z: -1.57 }
+      max: {x: 0.215, y: 0.165, z: 0.33}
+      min: {x: -0.215, y: -0.165, z: 0}
+- id: final_meeting_point
+  pose: {Z: -1.57, x: 5.0, y: 7.0, z: 0}
+  type: waypoint
