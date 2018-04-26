@@ -158,3 +158,9 @@ composition:
 - id: final_meeting_point
   pose: {Z: -1.57, x: 5.0, y: 7.0, z: 0}
   type: waypoint
+
+# - - - - - - - - HELP-ME-CARRY - - - - - - - - - -
+
+- id: "help_me_carry_starting_point"
+  pose: { x: 8.00, y: 4.50, z: 0, Z: 1.5708 }
+  type: "waypoint"
