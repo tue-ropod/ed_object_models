@@ -21,7 +21,7 @@ composition:
   pose: {Z: -0.7854000000000001, x: 0.930263, y: 7.469865, z: 0.0}
   type: rgo2018/couch
 - id: couch_table
-  pose: {Z: 0.7854000000000001, x: 1.630305, y: 6.87455, z: 0.0}
+  pose: {Z: -2.35619265359, x: 1.630305, y: 6.87455, z: 0.0}
   type: rgo2018/table_salon_double
 - id: cupboard
   pose: {Z: -1.5708000000000004, x: 3.262123, y: 8.183156, z: 0.0}
@@ -33,8 +33,8 @@ composition:
   pose: {Z: 0.7854000000000001, x: 5.045754, y: 5.106661, z: 0.0}
   type: rgo2018/table_salon
 - id: kitchen_table
-  pose: {Z: 0.0, x: 5.922403, y: 8.027883, z: 0.0}
-  type: rgo2018/table_dinner
+  pose: {Z: 3.14159, x: 5.922403, y: 8.027883, z: 0.0}
+  type: rgo2018/table_dinner2
 - id: bar
   pose: {Z: 2.3562, x: 9.22352, y: 7.158925, z: 0.0}
   type: rgo2018/bar
