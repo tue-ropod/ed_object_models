@@ -40,6 +40,26 @@ shape:
                 y: 0.76
                 z: 0.018
     -   box:
+            '#': Blanket1
+            pose:
+                x: 0
+                y: 0.375
+                z: 0.43
+            size:
+                x: 1.83
+                y: 0.01
+                z: 0.66
+    -   box:
+            '#': Blanket2
+            pose:
+                x: 0
+                y: -0.375
+                z: 0.43
+            size:
+                x: 1.83
+                y: 0.01
+                z: 0.66
+    -   box:
             '#': Leg
             pose:
                 x: -0.7325
