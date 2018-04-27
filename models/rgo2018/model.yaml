@@ -75,10 +75,10 @@ composition:
   - name: in
     shape:
     - box:
-        max: {x: 2.5, y: 3.45, z: 0.01}
-        min: {x: -2.5, y: -1.35, z: 0}
+        max: {x: 2.0, y: 2.5, z: 0.01}
+        min: {x: -3.0, y: -2.5, z: 0}
   id: bedroom
-  pose: {x: 5.5, y: 0.0, z: 0}
+  pose: {x: 8.0, y: 1.0, z: 0}
   type: room
 - areas:
   - name: in
