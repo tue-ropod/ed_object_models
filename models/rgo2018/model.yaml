@@ -110,6 +110,10 @@ composition:
 - id: initial_pose_2
   pose: {Z: 1.571, x: 8.48, y: -1.9, z: 0}
 
+- id: "lars"
+  pose: { x: 8.00, y: 6.50, z: 0, Z: 1.5708 }
+  type: "waypoint"
+
 #rips
   type: waypoint
 - id: registration_table1
