@@ -145,17 +145,17 @@ composition:
   pose: {Z: 0, x: 1.5, y: 4.25, z: 0}
   type: waypoint
 - id: gpsr_exit_door_2
-  pose: {Z: --3.1415, x: -1.0, y: 0.0, z: 0}
+  pose: {Z: -3.1415, x: -1.0, y: 0.0, z: 0}
   type: waypoint
 - id: challenge_open_ask_waypoint
   pose: {Z: 3.1415, x: 4.0, y: 6.0, z: 0}
   type: waypoint
-- id: trashbin
-  pose: {Z: 0.0, x: 0.2, y: 5.0, z: 0.0}
-  shape:
-    box:
-      max: {x: 0.215, y: 0.165, z: 0.33}
-      min: {x: -0.215, y: -0.165, z: 0}
+#- id: trashbin
+  #pose: {Z: 0.0, x: 0.2, y: 5.0, z: 0.0}
+  #shape:
+    #box:
+      #max: {x: 0.215, y: 0.165, z: 0.33}
+      #min: {x: -0.215, y: -0.165, z: 0}
 - id: final_meeting_point
   pose: {Z: -1.57, x: 5.0, y: 7.0, z: 0}
   type: waypoint
@@ -165,3 +165,18 @@ composition:
 - id: "help_me_carry_starting_point"
   pose: { x: 8.00, y: 4.50, z: 0, Z: 1.5708 }
   type: "waypoint"
+
+# - - - - - - - - - - EEGPSR - - - - - - - - - - -
+
+- id: eegpsr_pose_1
+  pose: {Z: 0.0, x: 0.4, y: 4.5, z: 0}
+  type: waypoint
+- id: eegpsr_exit_door_1
+  pose: {Z: 3.1415, x: -1.0, y: 0.0, z: 0}
+  type: waypoint
+- id: eegpsr_pose_2
+  pose: {Z: 1.571, x: 6.6, y: 4.2, z: 0}
+  type: waypoint
+- id: eegpsr_exit_door_2
+  pose: {Z: -1.571, x: 8.45, y: -2.8, z: 0}
+  type: waypoint
