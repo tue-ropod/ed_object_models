@@ -114,6 +114,21 @@ composition:
   pose: { x: 8.00, y: 6.50, z: 0, Z: 1.5708 }
   type: "waypoint"
 
+# Waypoints for navigating to areas
+
+- id: "bedroom_waypoint"
+  pose: { x: 8.00, y: 3.00, z: 0, Z: -2.3562 }
+  type: "waypoint"
+- id: "kitchen_waypoint"
+  pose: { x: 8.00, y: 5.00, z: 0, Z: 2.3562 }
+  type: "waypoint"
+- id: "living_room_waypoint"
+  pose: { x: 1.00, y: 5.00, z: 0, Z: 0.7854 }
+  type: "waypoint"
+- id: "dining_room_waypoint"
+  pose: { x: 1.50, y: 3.00, z: 0, Z: -0.7854 }
+  type: "waypoint"
+
 #rips
   type: waypoint
 - id: registration_table1
