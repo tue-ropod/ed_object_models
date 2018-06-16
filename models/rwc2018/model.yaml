@@ -9,4 +9,4 @@ composition:
 # Initial position
 - type: "waypoint"
   id: "initial_pose"
-  pose: { x: -1.0, y: 0.0, z: 0, Z: 0.0 }
+  pose: { x: 0.0, y: -1.0, z: 0, Z: 0.0 }
