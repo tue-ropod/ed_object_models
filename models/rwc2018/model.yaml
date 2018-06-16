@@ -5,3 +5,8 @@ composition:
 - id: walls
   pose: {x: 0, y: 0, z: 0}
   type: rwc2018/walls
+
+# Initial position
+- type: "waypoint"
+  id: "initial_pose"
+  pose: { x: -1.0, y: 0.0, z: 0, Z: 0.0 }
