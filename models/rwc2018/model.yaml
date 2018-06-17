@@ -116,8 +116,14 @@ composition:
   id: "exit_3_rips"
   pose: { x: 0.0, y: -0.4, z: 0, Z: -1.57079632679 }
 
+# - - - - - - - - HELP-ME-CARRY - - - - - - - - - -
 
-  # - - - - - - ROOMS - - - - - - -
+- id: "help_me_carry_starting_point"
+  pose: { x: -5.5, y: 7, z: 0, Z: 0.0 }
+  type: "waypoint"
+
+
+# - - - - - - ROOMS - - - - - - -
 
 - type: "room"
   id: "corridor"
