@@ -67,6 +67,17 @@ areas:
                 x: -0.087
                 y: -0.252
                 z: 1.26
+-   name: on_top_of #shelf3
+    shape:
+    -   box:
+            max:
+                x: 0.105
+                y: 0.252
+                z: 0.96
+            min:
+                x: -0.087
+                y: -0.252
+                z: 0.71
 shape:
     compound:
     -   box:

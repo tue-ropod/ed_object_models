@@ -77,7 +77,7 @@ areas:
             min:
                 x: -0.102
                 y: -0.352
-                z: 1.78
+                z: 1.75
 shape:
     compound:
     -   box:

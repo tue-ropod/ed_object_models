@@ -6,6 +6,42 @@ composition:
   pose: {x: 0, y: 0, z: 0}
   type: rwc2018/walls
 
+- type: "rwc2018/bed"
+  id: "bed"
+  pose:
+      x: 0.68
+      y: 7.9
+      z: 0.0
+      Z: -1.57079632679
+- type: "rwc2018/sidetable"
+  id: "sidetable"
+  pose:
+      x: -0.45
+      y: 8.68
+      z: 0.0
+      Z: -1.57079632679
+- type: "rwc2018/desk"
+  id: "desk"
+  pose:
+      x: 1.15
+      y: 5.8
+      z: 0.0
+      Z: -1.57079632679
+- type: "rwc2018/bookcase"
+  id: "bookcase"
+  pose:
+      x: -1.46
+      y: 0.24
+      z: 0.0
+      Z: 1.57079632679
+- type: "rwc2018/cupboard"
+  id: "cupboard"
+  pose:
+      x: -2.69
+      y: 6.45
+      z: 0.0
+      Z: 3.14159265359
+
 # Initial position
 - type: "waypoint"
   id: "initial_pose"
@@ -23,13 +59,13 @@ composition:
   pose: { x: -4.5, y: 5.5, z: 0, Z: -1.57079632679 }
 - type: "waypoint"
   id: "exit_1_rips"
-  pose: { x: 0.0, y: -1.1, z: 0, Z: -1.57079632679 }
+  pose: { x: 0.0, y: -1.5, z: 0, Z: -1.57079632679 }
 - type: "waypoint"
   id: "exit_2_rips"
-  pose: { x: 0.0, y: -0.7, z: 0, Z: -1.57079632679 }
+  pose: { x: 0.0, y: -0.8, z: 0, Z: -1.57079632679 }
 - type: "waypoint"
   id: "exit_3_rips"
-  pose: { x: 0.0, y: -0.3, z: 0, Z: -1.57079632679 }
+  pose: { x: 0.0, y: -0.4, z: 0, Z: -1.57079632679 }
 
 
   # - - - - - - ROOMS - - - - - - -
