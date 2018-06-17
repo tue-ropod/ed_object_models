@@ -9,7 +9,28 @@ composition:
 # Initial position
 - type: "waypoint"
   id: "initial_pose"
-  pose: { x: 0.0, y: -0.5, z: 0, Z: 0.0 }
+  pose: { x: -11.0, y: 8.5, z: 0, Z: 0.0 }
+
+# - - - - - - RIPS - - - - - - -
+- type: "waypoint"
+  id: "registration_table1"
+  pose: { x: -2.5, y: 3.5, z: 0, Z: -1.57079632679 }
+- type: "waypoint"
+  id: "registration_table2"
+  pose: { x: -3.5, y: 4.5, z: 0, Z: -1.57079632679 }
+- type: "waypoint"
+  id: "registration_table3"
+  pose: { x: -4.5, y: 5.5, z: 0, Z: -1.57079632679 }
+- type: "waypoint"
+  id: "exit_1_rips"
+  pose: { x: 0.0, y: -1.1, z: 0, Z: -1.57079632679 }
+- type: "waypoint"
+  id: "exit_2_rips"
+  pose: { x: 0.0, y: -0.7, z: 0, Z: -1.57079632679 }
+- type: "waypoint"
+  id: "exit_3_rips"
+  pose: { x: 0.0, y: -0.3, z: 0, Z: -1.57079632679 }
+
 
   # - - - - - - ROOMS - - - - - - -
 
