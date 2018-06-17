@@ -41,6 +41,13 @@ composition:
       y: 6.45
       z: 0.0
       Z: 3.14159265359
+- type: "rwc2018/sidetable"
+  id: "storage_table"
+  pose:
+      x: -2.82
+      y: 5.73
+      z: 0.0
+      Z: 3.14159265359
 
 # Initial position
 - type: "waypoint"
