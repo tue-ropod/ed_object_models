@@ -1,3 +1,0 @@
-balcony; min1; -2,45; -9,80
-balcony; max1; 1,00; -6,30
-balcony; center; -1,00; -7,20
