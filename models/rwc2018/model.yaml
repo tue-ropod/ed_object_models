@@ -69,6 +69,13 @@ composition:
       y: 4.3
       z: 0.0
       Z: 1.57079632679
+- type: "rwc2018/sink"
+  id: "sink"
+  pose:
+      x: -4.64
+      y: 4.3
+      z: 0.0
+      Z: 1.57079632679
 
 # Initial position
 - type: "waypoint"
