@@ -76,6 +76,20 @@ composition:
       y: 4.3
       z: 0.0
       Z: 1.57079632679
+- type: "rwc2018/endtable"
+  id: "end_table"
+  pose:
+      x: -0.3
+      y: 2.8
+      z: 0.0
+      Z: 1.57079632679
+- type: "rwc2018/couch"
+  id: "couch"
+  pose:
+      x: 0.9
+      y: 2.8
+      z: 0.0
+      Z: 3.14159265359
 
 # Initial position
 - type: "waypoint"
