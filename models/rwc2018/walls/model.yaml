@@ -1,7 +1,7 @@
 type: walls
 shape:
-    path: map_rwc2018_clean.pgm
-    blockheight: 2.48
+    path: map_rwc2018_clean_small.pgm
+    blockheight: 2.00
     resolution: 0.025000
     origin_x: -57.3
     origin_y: -12.8
