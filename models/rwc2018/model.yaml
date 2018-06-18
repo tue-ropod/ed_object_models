@@ -13,13 +13,13 @@ composition:
       y: 7.9
       z: 0.0
       Z: -1.57079632679
-# - type: "rwc2018/sidetable"
-#   id: "side_table"
-#   pose:
-#       x: -0.45
-#       y: 8.68
-#       z: 0.0
-#       Z: -1.57079632679
+- type: "rwc2018/sidetable"
+  id: "side_table"
+  pose:
+      x: -0.45
+      y: 8.68
+      z: 0.0
+      Z: -1.57079632679
 - type: "rwc2018/desk"
   id: "desk"
   pose:
