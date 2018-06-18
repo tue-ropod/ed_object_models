@@ -6,11 +6,11 @@ areas:
     -   box:
             max:
                 x: 0.73
-                y: 0.3
+                y: 0.27
                 z: 0.01
             min:
                 x: 0.53
-                y: -0.3
+                y: -0.27
                 z: 0.0
 -   name: shelf1
     shape:
@@ -18,9 +18,9 @@ areas:
             max:
                 x: 0.12
                 y: 0.352
-                z: 0.30
+                z: 0.28
             min:
-                x: -0.102
+                x: -0.09
                 y: -0.352
                 z: 0.12
 -   name: shelf2
@@ -31,7 +31,7 @@ areas:
                 y: 0.352
                 z: 0.555
             min:
-                x: -0.102
+                x: -0.09
                 y: -0.352
                 z: 0.305
 -   name: shelf3
@@ -42,7 +42,7 @@ areas:
                 y: 0.352
                 z: 0.91
             min:
-                x: -0.102
+                x: -0.09
                 y: -0.352
                 z: 0.66
 -   name: shelf4
@@ -53,7 +53,7 @@ areas:
                 y: 0.352
                 z: 1.33
             min:
-                x: -0.102
+                x: -0.09
                 y: -0.352
                 z: 1.08
 -   name: shelf5
@@ -64,7 +64,7 @@ areas:
                 y: 0.352
                 z: 1.68
             min:
-                x: -0.102
+                x: -0.09
                 y: -0.352
                 z: 1.43
 -   name: shelf6
@@ -73,11 +73,22 @@ areas:
             max:
                 x: 0.12
                 y: 0.352
-                z: 2.03
+                z: 1.97
             min:
-                x: -0.102
+                x: -0.09
                 y: -0.352
                 z: 1.75
+-   name: on_top_of
+    shape:
+    -   box:
+            max:
+                x: 0.12
+                y: 0.352
+                z: 1.33
+            min:
+                x: -0.09
+                y: -0.352
+                z: 1.08
 shape:
     compound:
     -   box:
