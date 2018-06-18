@@ -44,10 +44,10 @@ composition:
 - type: "rwc2018/sidetable"
   id: "storage_table"
   pose:
-      x: -2.82
-      y: 5.73
+      x: -4 #-2.82
+      y: 7.20 #5.73
       z: 0.0
-      Z: 3.14159265359
+      Z: -1.57079632679 #3.14159265359
 - type: "rwc2018/diningtable"
   id: "dining_table"
   pose:
