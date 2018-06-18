@@ -122,6 +122,12 @@ composition:
   pose: { x: -5.5, y: 7.0, z: 0, Z: 0.0 }
   type: "waypoint"
 
+# - - - - - - - - G-P-S-R - - - - - - - - - -
+
+- id: "gpsr_starting_point"
+  pose: { x: -5.5, y: 7.0, z: 0, Z: 0.0 }
+  type: "waypoint"
+
 
 # - - - - - - ROOMS - - - - - - -
 
