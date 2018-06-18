@@ -126,7 +126,13 @@ composition:
 # - - - - - - - - HELP-ME-CARRY - - - - - - - - - -
 
 - id: "help_me_carry_starting_point"
-  pose: { x: -5.5, y: 7, z: 0, Z: 0.0 }
+  pose: { x: -5.5, y: 7.0, z: 0, Z: 0.0 }
+  type: "waypoint"
+
+# - - - - - - - - G-P-S-R - - - - - - - - - -
+
+- id: "gpsr_starting_point"
+  pose: { x: -5.5, y: 7.0, z: 0, Z: 0.0 }
   type: "waypoint"
 
 
