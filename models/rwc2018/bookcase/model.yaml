@@ -22,7 +22,7 @@ areas:
             min:
                 x: -0.087
                 y: -0.252
-                z: 0.065
+                z: 0.075
 -   name: shelf2
     shape:
     -   box:
@@ -33,7 +33,7 @@ areas:
             min:
                 x: -0.087
                 y: -0.252
-                z: 0.395
+                z: 0.405
 -   name: shelf3
     shape:
     -   box:
@@ -44,7 +44,7 @@ areas:
             min:
                 x: -0.087
                 y: -0.252
-                z: 0.695
+                z: 0.705
 -   name: shelf4
     shape:
     -   box:
@@ -55,7 +55,7 @@ areas:
             min:
                 x: -0.087
                 y: -0.252
-                z: 0.935
+                z: 0.945
 -   name: shelf5
     shape:
     -   box:
@@ -66,7 +66,7 @@ areas:
             min:
                 x: -0.087
                 y: -0.252
-                z: 1.24
+                z: 1.25
 -   name: on_top_of #shelf3
     shape:
     -   box:
