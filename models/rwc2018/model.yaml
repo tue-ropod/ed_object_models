@@ -134,9 +134,9 @@ composition:
 - id: "gpsr_starting_point"
   pose: { x: -5.5, y: 7.0, z: 0, Z: 0.0 }
   type: "waypoint"
-
-# - - - - - - - - G-P-S-R - - - - - - - - - -
-
+- id: "gpsr_meeting_point"
+  pose: { x: -5.5, y: 7.0, z: 0, Z: 0.0 }
+  type: "waypoint"
 - id: "door"
   pose: { x: 0.0, y: 1.0, z: 0, Z: -1.57079632679 }
   type: "waypoint"
