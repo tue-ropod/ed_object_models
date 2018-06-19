@@ -16,12 +16,12 @@ areas:
     shape:
     -   box:
             max:
-                x: 0.875
-                y: 0.175
+                x: 0.95
+                y: 0.25
                 z: 0.01
             min:
                 x: 0.675
-                y: -0.175
+                y: -0.25
                 z: 0.0
 shape:
     compound:
