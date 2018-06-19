@@ -128,6 +128,9 @@ composition:
   pose: { x: -5.5, y: 7.0, z: 0, Z: 0.0 }
   type: "waypoint"
 
+- id: "gpsr_entrance"
+  pose: { x: -9.0, y: 8.0, z: 0, Z: 0.0 }
+  type: "waypoint"
 
 # - - - - - - ROOMS - - - - - - -
 
