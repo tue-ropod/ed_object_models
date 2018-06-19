@@ -18,66 +18,66 @@ areas:
             max:
                 x: 0.105
                 y: 0.252
-                z: 0.34
+                z: 0.265
             min:
                 x: -0.087
                 y: -0.252
-                z: 0.09
+                z: 0.075
 -   name: shelf2
     shape:
     -   box:
             max:
                 x: 0.105
                 y: 0.252
-                z: 0.66
+                z: 0.595
             min:
                 x: -0.087
                 y: -0.252
-                z: 0.41
+                z: 0.405
 -   name: shelf3
     shape:
     -   box:
             max:
                 x: 0.105
                 y: 0.252
-                z: 0.96
+                z: 0.895
             min:
                 x: -0.087
                 y: -0.252
-                z: 0.71
+                z: 0.705
 -   name: shelf4
     shape:
     -   box:
             max:
                 x: 0.105
                 y: 0.252
-                z: 1.21
+                z: 1.135
             min:
                 x: -0.087
                 y: -0.252
-                z: 0.96
+                z: 0.945
 -   name: shelf5
     shape:
     -   box:
             max:
                 x: 0.105
                 y: 0.252
-                z: 1.51
+                z: 1.44
             min:
                 x: -0.087
                 y: -0.252
-                z: 1.26
+                z: 1.25
 -   name: on_top_of #shelf3
     shape:
     -   box:
             max:
                 x: 0.105
                 y: 0.252
-                z: 0.96
+                z: 0.895
             min:
                 x: -0.087
                 y: -0.252
-                z: 0.71
+                z: 0.695
 shape:
     compound:
     -   box:
@@ -125,48 +125,49 @@ shape:
             pose:
                 x: 0.009
                 y: 0
-                z: 0.061
+                z: 0.001
             size:
                 x: 0.212
                 y: 0.564
-                z: 0.018
+                z: 0.065
     -   box:
             '#': Shelf 2
             pose:
                 x: 0.009
                 y: 0
-                z: 0.381
+                z: 0.38
             size:
                 x: 0.212
                 y: 0.564
-                z: 0.018
+                z: 0.015
     -   box:
             '#': Shelf 3
             pose:
                 x: 0.009
                 y: 0
-                z: 0.681
+                z: 0.68
             size:
+            
                 x: 0.212
                 y: 0.564
-                z: 0.018
+                z: 0.015
     -   box:
             '#': Shelf 4
             pose:
                 x: 0.009
                 y: 0
-                z: 0.931
+                z: 0.92
             size:
                 x: 0.212
                 y: 0.564
-                z: 0.018
+                z: 0.015
     -   box:
             '#': Shelf 5
             pose:
                 x: 0.009
                 y: 0
-                z: 1.231
+                z: 1.225
             size:
                 x: 0.212
                 y: 0.564
-                z: 0.018
+                z: 0.015
