@@ -16,12 +16,12 @@ areas:
     shape:
     -   box:
             max:
-                y: 0.2
-                x: 1.0
+                y: 0.05
+                x: 1.05
                 z: 0.01
             min:
-                y: -0.2
-                x: 0.9
+                y: -0.05
+                x: 0.85
                 z: 0.0
 -   name: on_right_of
     shape:
@@ -38,12 +38,12 @@ areas:
     shape:
     -   box:
             max:
-                y: 0.2
-                x: -0.9
+                y: 0.05
+                x: -0.85
                 z: 0.01
             min:
-                y: -0.2
-                x: -1.0
+                y: -0.05
+                x: -1.05
                 z: 0.0
 shape:
     compound:
