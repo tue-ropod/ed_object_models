@@ -23,6 +23,17 @@ areas:
                 x: -0.4
                 y: 0.8
                 z: 0.0
+-   name: in_back_of
+    shape:
+    -   box:
+            max:
+                x: -1
+                y: 0.27
+                z: 0.01
+            min:
+                x: -1.4
+                y: -0.27
+                z: 0
 shape:
     compound:
     -   box:
