@@ -23,7 +23,7 @@ areas:
                 x: -0.4
                 y: 0.8
                 z: 0.0
--   name: in_back_of
+-   name: on_right_of
     shape:
     -   box:
             max:
@@ -34,6 +34,17 @@ areas:
                 x: -1.4
                 y: -0.27
                 z: 0
+-   name: in_back_of
+    shape:
+    -   box:
+            max:
+                x: 0.4
+                y: -0.8
+                z: 0.01
+            min:
+                x: -0.4
+                y: -1.1
+                z: 0.0
 shape:
     compound:
     -   box:
