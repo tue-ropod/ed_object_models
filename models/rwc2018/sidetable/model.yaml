@@ -17,33 +17,33 @@ areas:
     -   box:
             max:
                 x: 0.95
-                y: 0.25
+                y: 0.35
                 z: 0.01
             min:
                 x: 0.675
-                y: -0.25
+                y: -0.35
                 z: 0.0
 -   name: on_right_of
     shape:
     -   box:
             max:
                 x: 0.95
-                y: 0.25
+                y: 0.35
                 z: 0.01
             min:
                 x: 0.675
-                y: -0.25
+                y: -0.35
                 z: 0.0
 -   name: in_back_of
     shape:
     -   box:
             max:
                 x: 0.95
-                y: 0.25
+                y: 0.35
                 z: 0.01
             min:
                 x: 0.675
-                y: -0.25
+                y: -0.35
                 z: 0.0
 shape:
     compound:

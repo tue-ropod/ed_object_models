@@ -171,7 +171,7 @@ composition:
     shape:
     - box:
         min: { x: -2.2, y: -0.7, z: 0 }
-        max: { x: 1.2, y: 2.7, z: 2.01 }
+        max: { x: 0.9, y: 2.7, z: 2.01 }
 - type: "room"
   id: "bedroom"
   pose: { x: -1.0, y: 7.0, z: 0 }
