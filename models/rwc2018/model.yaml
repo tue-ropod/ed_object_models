@@ -54,7 +54,7 @@ composition:
       x: -4.4
       y: 2.1
       z: 0.0
-      Z: 0.0
+      Z: 1.57079632679
 - type: "rwc2018/counter"
   id: "counter"
   pose:
