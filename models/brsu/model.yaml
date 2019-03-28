@@ -1,0 +1,48 @@
+composition:
+    - type: "floor"
+      id: "floor"
+      pose:
+          x: 0
+          y: 0
+          z: 0
+
+    - type: "brsu/walls"
+      id: "walls"
+      pose:
+          x: 0
+          y: 0
+          z: 0 
+
+    - type: "indoor_navigation_areas/MobidikArea"
+      id: "MobidikArea1"
+      pose: { x: 54.50, y: 33.50, z: 0, rz: 0 }
+      shape:
+          compound:
+            - polygon:
+                  points:
+                    - { x: 0, y: 0 }
+                    - { x: 0.00, y: -1.30 }
+                    - { x: 2.00, y: -1.30 }
+                    - { x: 2.00, y: 0.00 }
+                  height: 0.1
+
+    - type: "waypoint"
+      id: "orient_wp_MobidikArea1"
+      pose: { x: 55.435, y: 33.072, z: 0, Z: -1.545 }
+
+    - type: "indoor_navigation_areas/MobidikArea"
+      id: "MobidikArea2"
+      pose: { x: 51.40, y: 40.60, z: 0, rz: 0 }
+      shape:
+          compound:
+            - polygon:
+                  points:
+                    - { x: 0, y: 0 }
+                    - { x: -2.50, y: -0.60 }
+                    - { x: -1.10, y: -6.50 }
+                    - { x: 1.50, y: -6.60 }
+                  height: 0.1
+    - type: "waypoint"
+      id: "orient_wp_MobidikArea2"
+      pose: { x: 50.1, y: 37.5, z: 0, Z: 0.264 }
+
