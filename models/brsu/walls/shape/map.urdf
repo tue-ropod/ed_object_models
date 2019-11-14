@@ -16,7 +16,7 @@
 		<origin rpy="0 0 0" xyz="-40 15 0.0"/>
 		<geometry>
 			<mesh 
-				filename="/home/cesar/ropod-project-software/catkin_workspace/src/applications/occupancy_grids/brsu/brsu-c-floor0_osm/map.stl"
+				filename="/home/bob/ropod-project-software/catkin_workspace/src/applications/occupancy_grids/brsu/brsu-c-floor0_osm/map.stl"
 				scale="0.001 0.001 0.003"		
 			/>
 		</geometry>
@@ -26,7 +26,7 @@
 		<origin rpy="0 0 0" xyz="-40 15 0.0"/>	
 		<geometry>
 			<mesh 
-				filename="/home/cesar/ropod-project-software/catkin_workspace/src/applications/occupancy_grids/brsu/brsu-c-floor0_osm/map.stl"
+				filename="/home/bob/ropod-project-software/catkin_workspace/src/applications/occupancy_grids/brsu/brsu-c-floor0_osm/map.stl"
 				scale="0.001 0.001 0.003"		
 			/>
 		</geometry>
