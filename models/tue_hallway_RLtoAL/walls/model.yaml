@@ -1,6 +1,6 @@
 type: walls
 shape:
-    path: shape/map.pgm
+    path: shape/map_2DoorsOpen_old.pgm
     blockheight: 2.0
     resolution: 0.025
     origin_x: -10.0
